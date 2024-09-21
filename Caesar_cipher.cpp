@@ -13,7 +13,7 @@ string encrypt(string inputtxt, int key) {
             ciphertxt += inputtxt[i];
         } else {
             ciphertxt += char(int(inputtxt[i] + key - 48)%10+48);
-        }
+        } 
     }
     return ciphertxt;
 }
