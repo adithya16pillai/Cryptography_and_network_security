@@ -6,7 +6,7 @@ using namespace std;
 unsigned char SBox[256] = {
     0x80, 0x68, 0x2D, 0xE0
 };
- 
+  
 void RotWord(unsigned char* word) {
     unsigned char temp = word[0];
     word[0] = word[1];
